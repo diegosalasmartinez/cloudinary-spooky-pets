@@ -40,14 +40,6 @@
 </section>
 
 <style>
-	h1,
-	h2 {
-		text-align: center;
-		color: var(--primary-color);
-		margin: 0;
-		text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
-	}
-
 	h1 {
 		margin-top: 40px;
 		margin-bottom: 10px;
@@ -114,7 +106,6 @@
 	}
 
 	button {
-		font-family: 'HappyHalloween', sans-serif;
 		background-color: var(--primary-color);
 		color: white;
 		padding: 10px 20px;
