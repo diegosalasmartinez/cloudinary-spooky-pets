@@ -9,6 +9,7 @@
 	<body data-sveltekit-preload-data="hover">
 		<div id="overlay"></div>
 		<video
+			playsinline
 			autoplay
 			muted
 			loop
@@ -21,10 +22,6 @@
 			/>
 			Tu navegador no soporta video.
 		</video>
-		<!--<video autoplay muted loop id="background-video">-->
-		<!--	<source src="video/cloud2.mp4" type="video/mp4" />-->
-		<!--	Tu navegador no soporta video.-->
-		<!--</video>-->
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
