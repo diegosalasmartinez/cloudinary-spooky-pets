@@ -7,15 +7,19 @@
 @font-face {
 	font-family: 'HappyHalloween';
 	src:
-		url('/fonts/HappyHalloween.ttf') format('truetype'),
-		url('/fonts/HappyHalloween.otf') format('opentype');
+		url('/fonts/HappyHalloween.woff2') format('woff2'),
+		url('/fonts/HappyHalloween.woff') format('woff'),
+		url('/fonts/HappyHalloween.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'HalloweenMorning';
-	src: url('/fonts/HalloweenMorning.ttf') format('truetype');
+	src:
+		url('/fonts/HalloweenMorning.woff2') format('woff2'),
+		url('/fonts/HalloweenMorning.woff') format('woff'),
+		url('/fonts/HalloweenMorning.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
