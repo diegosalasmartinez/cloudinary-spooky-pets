@@ -7,7 +7,7 @@ export async function load({ params }: { params: { id: string } }) {
 		width: 300,
 		crop: 'fill',
 		gravity: 'auto',
-		format: 'auto',
+		format: 'jpg',
 		quality: 'auto'
 	});
 
