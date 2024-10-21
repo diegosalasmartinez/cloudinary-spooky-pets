@@ -115,6 +115,7 @@
 	}
 
 	#effect-buttons button {
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 		padding: 10px 15px;
 		border: none;
 		font-size: 16px;
@@ -133,19 +134,16 @@
 	#effect-buttons button#zombie {
 		background-color: #556b2f;
 		color: #f0e68c;
-		box-shadow: 0 0 4px rgba(34, 139, 34, 0.6);
 	}
 
 	#effect-buttons button#ghost {
 		background-color: #f8f8ff;
 		color: #696969;
-		box-shadow: 0 0 4px rgba(173, 216, 230, 0.9);
 	}
 
 	#effect-buttons button#witch {
 		background-color: #4b0082;
 		color: #ff4500;
-		box-shadow: 0 0 4px rgba(255, 69, 0, 0.6);
 	}
 
 	#image-container {

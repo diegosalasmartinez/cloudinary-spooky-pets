@@ -95,7 +95,7 @@
 
 		p {
 			font-size: 24px;
-            line-height: 32px;
+			line-height: 32px;
 		}
 	}
 
@@ -114,5 +114,10 @@
 		font-size: 18px;
 		cursor: pointer;
 		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+		transition: transform 0.3s ease;
+	}
+
+	button:hover {
+		transform: scale(1.1);
 	}
 </style>
